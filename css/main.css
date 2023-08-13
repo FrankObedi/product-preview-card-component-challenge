@@ -147,9 +147,10 @@ button[data-icon="cart-icon"]::before {
 }
 
 .attribution {
-  margin-top: 2rem;
-  width: 100%;
-  font-size: 0.7rem;
+  position: relative;
+  top: 20px;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
