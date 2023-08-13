@@ -163,7 +163,9 @@ footer a {
   .product-content {
     padding: 2rem;
   }
+}
 
+@media screen and (min-width: 1000px) {
   footer {
     position: absolute;
     width: 100%;
