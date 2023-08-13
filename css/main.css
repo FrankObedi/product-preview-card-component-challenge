@@ -60,7 +60,7 @@ body {
   font-size: 0.875rem;
   color: var(--clr-neutral);
   position: relative;
-  margin: 0 1rem;
+  margin: 1rem;
 }
 
 main {
