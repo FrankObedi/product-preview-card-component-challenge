@@ -64,6 +64,7 @@ body {
 }
 
 main {
+  position: relative;
   min-height: 100vh;
   display: grid;
   place-content: center;
@@ -145,13 +146,14 @@ button[data-icon="cart-icon"]::before {
   background: var(--clr-dark-green);
 }
 
-footer {
-  display: flex;
-  justify-content: center;
+.attribution {
+  margin-top: 2rem;
+  width: 100%;
+  font-size: 0.7rem;
 }
 
-footer a {
-  color: var(--clr-green);
+.attribution a {
+  color: var(--clr-dark-green);
 }
 
 @media screen and (min-width: 600px) {
@@ -165,11 +167,11 @@ footer a {
   }
 }
 
-@media screen and (min-width: 1000px) {
-  footer {
+@media screen and (min-width: 900px) {
+  .attribution {
     position: absolute;
-    width: 100%;
+    display: flex;
+    justify-content: center;
     bottom: 0;
-    left: 0;
   }
 }
