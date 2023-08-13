@@ -166,12 +166,3 @@ button[data-icon="cart-icon"]::before {
     padding: 2rem;
   }
 }
-
-@media screen and (min-width: 900px) {
-  .attribution {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    bottom: 0;
-  }
-}
